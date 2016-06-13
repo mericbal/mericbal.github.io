@@ -1,0 +1,69 @@
+body{
+  color: white;
+  /*background-color: gray;*/
+  padding-top: 30px;
+  max-width: 960px;
+  min-width: 500px;
+  margin: 0 auto;
+}
+
+html{
+  background-image: url("ucl_big.jpg");
+  background-size: contain;
+  /*background-position: center;*/
+}
+
+#header{
+  font-style: italic;
+  font-family: sans-serif;
+  text-align: center;
+
+}
+
+#menubar {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  text-align: center;
+  width: 100%;
+  background-color: gray;
+  /*border-bottom: 1px solid black;*/
+  padding: 10px;
+}
+
+#menubar p {
+  display: inline;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-right: 2px solid black;
+}
+
+#menubar a:hover{
+  background-color: red;
+  color: white;
+}
+
+#menubar a:visited{
+  color: purple;
+}
+
+.list li{
+  font-family: 'Dancing Script', cursive;
+
+}
+
+#table{
+  margin: 0 auto;
+}
+
+.images{
+  margin: 0 auto;
+
+}
+
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: hotpink;
+  }
+}
